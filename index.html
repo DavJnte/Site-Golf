@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Golf de Givalois</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" ><img class="logo" src="./img/logo.png" alt="logo"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="parcours.html">Le Parcours</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="membre.html">Nos Membres</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="tarif.html">Les Tarifs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="sponsors.html">Nos Sponsors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner Image  -->
+    <div
+      class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+      <div class="content text-center">
+        <h1 class="text-white">Golf Givalois <br> de Bourbon-Lancy</h1>
+      </div>
+    </div>
+
+    <style>
+        .banner-image {
+          background-image: url('./img/trou.jpg');
+          background-size: cover;
+        }
+      </style>
+    <!-- Main Content Area -->
+    <br>
+    <h2 class="first-title">A Propos de Nous</h2>
+
+     <!--COMPONENTS-->  
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="container my-5 d-grid gap-5">
+                <div class="p-5 border">
+                  <p class="txt-about">
+                      Au cœur de la Bourgogne, le golf de Bourbon-Lancy vous accueille de mars à novembre dans un cadre champêtre et convivial. Neuf trous, mixant passages étroits, 
+                      grands fairways, greens coquins et bunker malicieux, vous feront passer un moment agréable, que vous recherchiez à scorer bas ou à vous détendre. 
+                      Et comme une partie de golf ne se termine jamais au 18e trou, le bar du club house fait office de 19e, pour refaire le parcours autour d'un verre, dans une atmosphère détendue.
+                  </p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-sm-4">
+              <div class="card" style="width: 18rem;">
+                    <a style="background-color: Transparent; outline:none; text-decoration:none;" href="./img/calendrier.jpg" onclick="top.Lbox(this); return false;">
+                    <img class="calendrier" alt="Vign_calendrier2021" style="border:0px; margin:5px;" src="./img/calendrier.jpg" width="180" height="97">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text">Calendrier des Compétitions à venir</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm"> 
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./img/ffg.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Club n°1325</h5>
+                      <p class="card-text">Adhésion à la FFG le 18/05/1995.</p>
+                      <p>La Fédération française de golf est une association française loi de 1901 fondée le 24 novembre 1912 sous le nom de l'Union des golfs de France.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>  
+            </div>
+
+          <div class="col-sm">
+            <u><h2 class="prevention">ATTENTION</h2></u>
+            <p class="preven">Suite aux dernières directives gouvernementales, le pass sanitaire s'appliquera au golf de Givallois à Bourbon-Lancy à partir du lundi 9 août,
+                que ce soit pour le practice, le parcours ou la terrasse du club-house.
+                <br>
+               Merci donc de passer au club-house présenter votre pass sanitaire à votre arrivée. Des contrôles seront effectués. 
+               Nous vous rappelons également que la réservation est toujours obligatoire avant de jouer.
+            </p>
+          </div>
+
+          <div class="col-sm">
+            <img class="tire" src="./img/club.jpg" alt="homme qui shoot une balle">
+            </div>
+        </div>
+      </div>
+
+     <br>
+     <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="https://www.facebook.com/golf.givallois.bourbon.lancy" class="nav-link px-2 text-muted"><p class="facebook">facebook <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg></p></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Accueil</a></li>
+          </ul>
+          <p class="text-center text-muted">&copy; 2021 Golf Givalois, 71140 Bourbon-Lancy</p>
+        </footer>
+      </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <script type="text/javascript">
+      var nav = document.querySelector('nav');
+      window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add('bg-dark', 'shadow');
+        } else {
+          nav.classList.remove('bg-dark', 'shadow');
+        }
+      });
+    </script>
+  </body>
+</html>
+
