@@ -6,65 +6,42 @@ h1{
 .first-title{
     font-family:"Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
     text-align: center;
-    text-shadow: 4px 4.5px rgb(189, 189, 189);
+    text-shadow: 5px 4px rgb(189, 189, 189);
 
 }
 
 .logo{
     width: 60px;
+    font-size: 1000px;
 }
 
 .prevention{
     color: red;
     width: 30px;
 }
+.form{
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.title-contact{
+    text-align: center;
+    font-family:"Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+    text-shadow: 5px 4px rgb(189, 189, 189);
+}
 
+.title-sponsors{
+    margin-top: 150px;
+    text-align: center;
+    font-family:"Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+    text-shadow: 5px 4px rgb(189, 189, 189);
+}
 .tire{
     width: 330px;
 }
 .preven{
     background-color: rgb(239, 239, 240);
     margin-right:20px;
-}
-.slides{
-    width: calc(500px *2);
-    animation: glisse 20s infinite;
-}
-
-.slide{
-    float: left;
-    background-color: white;
-    text-align: center;
-    color: black;
-    width: 500px;
-    height: 500px;
-}
-
-.slider{
-    
-    width:500px;
-    overflow: hidden;
-    margin: 150px auto;
-}
-
-
-@keyframes glisse {
-    0%{
-        transform: translateX(0);
-    }
-    25%{
-        transform: translateX(0);
-    }
-    50%{
-        transform: translateX(-500px);
-    }
-    75%{
-        transform: translateX(-500px);
-    }
-    100%{
-        transform: translateX(0);
-    }
-
 }
 
 footer{
