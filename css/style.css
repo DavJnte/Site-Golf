@@ -19,12 +19,21 @@ h1{
     color: red;
     width: 30px;
 }
-.form{
-    margin-top: 150px;
+
+.card-img-top{
+    width: 100px;
+}
+.visit-card{
     margin-left: 300px;
     margin-right: 300px;
 }
-.title-contact{
+.form{
+    margin-top: 150px;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+.title-page{
+    margin-top: 150px;
     text-align: center;
     font-family:"Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
     text-shadow: 5px 4px rgb(189, 189, 189);
