@@ -3,6 +3,9 @@ h1{
     font-family: Tahoma, Geneva, sans-serif;
 }
 
+body{
+    width: 100%;
+}
 .first-title{
     font-family:"Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
     text-align: center;
@@ -10,6 +13,29 @@ h1{
 
 }
 
+.first-title-img{
+ margin-left:-1350px;
+}
+
+.second-title-img{
+    margin-top:-32px;
+}
+
+.three-title-img{
+    margin-top: -32px;
+    margin-right: -50px;
+}
+
+.first-t{
+    width: 500px;
+}
+.second-t{
+ width: 500px;
+}
+.three-t{
+    width: 500px;
+    margin-left:16px;
+}
 .logo{
     width: 60px;
     font-size: 1000px;
